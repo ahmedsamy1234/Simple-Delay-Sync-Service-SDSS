@@ -17,16 +17,21 @@ This is totally invisible to us in university since our eco system isn't enough 
 You're required to implement a network stack, starting from a TAP device then build support for ARP, ICMP and UDP protocols.
 By the end of this project, you should be able to bind a UDP socket to the IP of the device you allocated (from another program) and send UDP packets using that socket normally. Then, using the TAP Fd (file descriptor) you have you'll be able to craft a reply and send it to the poor socket that doesn't know what's happening on the other side. This image will help illustrate the final output.
 
+<p align="center">
+  <img src="https://github.com/OmarReda/Simple-Delay-Sync-Service-SDSS/blob/main/Diagram.png" width="600">
+</p>
+
+
 ## Testing your code
 You'll incrementally test the code depending on the layer you're implementing. Wireshark will still be useful.
 After you've finished implementing the UDP layer, you'll test it as in the provided image.
 
 ## Resources
-* TUN/TAP tutorial here (must read)
-* Another TUN/TAP tutorial here
-* Building a TCP/IP stack here (must read)
-* TAP lab here
+* TUN/TAP tutorial <a href="https://web.archive.org/web/20200422190936/https://hechao.li/2018/05/21/Tun-Tap-Interface/" target="blank">here</a> (must read)
+* Another TUN/TAP tutorial <a href="https://web.archive.org/web/20200422190936/https://hechao.li/2018/05/21/Tun-Tap-Interface/" target="blank">here</a> 
+* Building a TCP/IP stack <a href="https://web.archive.org/web/20200422190936/https://hechao.li/2018/05/21/Tun-Tap-Interface/" target="blank">here</a> (must read)
+* TAP lab <a href="https://hechao.li/2018/06/08/TAP-Interface-Lab/" target="blank">here</a>
 
 ## RFCs
-* IP RFC here
-* UDP RFC here
+* IP RFC <a href="https://tools.ietf.org/html/rfc791" target="blank">here</a>
+* UDP RFC <a href="https://tools.ietf.org/html/rfc768" target="blank">here</a>
